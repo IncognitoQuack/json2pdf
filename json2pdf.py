@@ -278,7 +278,7 @@ No explanations, no markdown code blocks, just pure LaTeX."""
                 "messages": [
                     {
                         "role": "system",
-                        "content": "You are a LaTeX expert. Output only valid, compilable LaTeX code."
+                        "content": "You are a LaTeX expert. Output only valid, compilable LaTeX code. That is ready to plug and play (keep the code error free)."
                     },
                     {
                         "role": "user",
@@ -882,3 +882,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
